@@ -12,8 +12,6 @@ def write_words(word_count, file_name):
 
     print(f"Завершилась запись в файл {file_name}")
 
-
-# Взятие текущего времени
 start_time_func = datetime.now()
 
 write_words(10, 'example1.txt')
